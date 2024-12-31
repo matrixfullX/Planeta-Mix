@@ -1,0 +1,189 @@
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: #f5f6fa;
+    background-color: rgb(0, 10, 146);
+    padding: 18px 0;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display : inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a {
+    color: #f5f6fa;
+    text-decoration: none;
+}
+
+header h1 {
+    font-size: 30px;
+}
+
+.container {
+    width: 1360px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section h2 ,
+.articles article {
+    padding-bottom: 16px;
+}
+
+.articles article h3 {
+    margin : 8px 0;
+}
+
+.articles article p ,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section {
+    padding: 22px 0;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section p {
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+section h2 , h3 , header ,
+form button {
+    font-family: "Bungee", serif;
+    font-weight: 300;
+    font-style: normal; 
+}
+
+#products h2 {
+    font-size: 35px;
+    margin: 10px 0 10px ;
+}
+
+#products .h2 {
+    font-size: 35px;
+    margin: 50px 0 50px 400px;
+}
+
+#products h3 {
+    font-size: 20px;
+}
+
+.blocoadesivo {
+    height: 200px;
+}
+
+.borracha {
+    height: 200px;
+}
+
+.store-front {
+    width: 700px;
+    margin: 0 32px 0 0;
+}
+
+#about .container p {
+    margin: 0 0 12px 0;
+}
+
+.brands-list img {
+    width: 40px;
+}
+
+.brands-list li {
+    display: inline ;
+    margin: 0 12px 0 0;
+}
+
+.social-links img {
+    width: 40px;
+}
+
+.social-links li {
+    display: flex;
+    display: inline ;
+    margin: 0 12px 0 0;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+form input ,
+form textarea ,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding : 16px 0;
+}
+
+form textarea {
+    resize : none;
+    height: 180px;
+}
+
+form button:hover {
+    background-color: #314e9e;
+}
+
+input:focus , textarea:focus {
+    outline-color: #182C61;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-methods h3 {
+    font-size: 20px;
+    margin: 0 0 20px 0;
+}
+
+.contact-methods p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer {
+    color: #f5f6fa;
+    background-color: #182C61;
+    padding: 10px;
+    font-weight: bold;
+}
